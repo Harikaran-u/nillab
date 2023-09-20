@@ -1,0 +1,341 @@
+.login-page-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 40px;
+  background-image: linear-gradient(to right, #7ee3f7, #ffffff 50%);
+  background-size: cover;
+}
+
+/* login form style */
+
+.login-form-container {
+  width: 470px;
+  height: 420px;
+  background-color: #ffffff;
+  border-radius: 34px;
+  padding: 24px;
+  box-shadow: 0px 4px 15px 0px #00000040;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-info {
+  font-family: "Roboto";
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  color: #2f2f2f;
+  margin-bottom: 10px;
+  margin-left: 54px;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.user-input {
+  width: 300px;
+  height: 48px;
+  border-radius: 5px;
+  outline: none;
+  padding: 5px;
+  background-color: #e3e3e3;
+  font-family: "Roboto";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px;
+  color: #6e6e6e;
+  margin-left: 20px;
+  border: 0;
+  padding-left: 50px;
+}
+
+.input-icon {
+  color: #138ed1;
+  font-size: 36px;
+}
+.check-box-input {
+  height: 22px;
+  width: 22px;
+  outline: none;
+  border: 0;
+  margin-left: 10px;
+}
+.terms {
+  font-family: "Roboto";
+  font-size: 11px;
+  line-height: 25px;
+  margin-left: 25px;
+}
+
+.conditions {
+  font-weight: 600;
+  margin-left: 2px;
+}
+
+.submit-btn {
+  width: 236px;
+  height: 42px;
+  border: 0;
+  border-radius: 6px;
+  background-color: #138ed1;
+  font-family: "Roboto";
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 25px;
+  color: #ffffff;
+  align-self: center;
+  margin-top: 20px;
+}
+
+/* offer container style */
+
+.offer-container {
+  width: 608px;
+  height: 70px;
+  border: none;
+  border-radius: 34px;
+  background-color: #00a6ff;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+}
+.deal-price {
+  font-family: "Roboto";
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 24px;
+  width: 470px;
+  height: 70px;
+  background-color: #00486c;
+  border: 1px solid #ffffff;
+  border-radius: 34px;
+  color: #ffffff;
+  padding: 20px;
+}
+.original-price {
+  text-decoration: line-through;
+  margin-right: 8px;
+  margin-left: 5px;
+}
+.offer-price {
+  font-size: 24px;
+}
+
+.offer-percentage {
+  font-family: "Roboto";
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 24px;
+  color: #ffffff;
+  margin-left: 20px;
+}
+
+/* advertisement banner style */
+.ad-container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.ad-head {
+  font-family: "Roboto";
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 70px;
+  color: #333333;
+}
+.highlight-head {
+  color: #138ed1;
+}
+
+.highlight-img {
+  width: 314px;
+  height: 20px;
+}
+.ad-display-container {
+  margin-top: 100px;
+  align-self: center;
+}
+.picture-outer-container {
+  width: 280px;
+  height: 280px;
+  border: 1px solid #00a6ff;
+  border-radius: 4px;
+  transform: rotate(45deg);
+  position: relative;
+}
+
+.picture-container {
+  width: 100%;
+  height: 100%;
+  background-color: #00a6ff;
+  margin-left: 40px;
+  margin-top: -40px;
+  overflow: hidden;
+}
+
+.ad-picture {
+  width: 100%;
+  object-fit: cover;
+  transform: rotate(-45deg);
+}
+
+.works-container {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  width: 184px;
+  height: 90px;
+  background-color: #6e6e6e38;
+  backdrop-filter: blur(10px);
+  position: absolute;
+  border-radius: 12px;
+}
+
+.work-1 {
+  top: 200px;
+  left: 70px;
+}
+
+.work-2 {
+  top: 300px;
+  left: 0px;
+}
+.work-3 {
+  top: 400px;
+  left: 50px;
+}
+
+.work-name {
+  font-family: "Roboto";
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 18px;
+  margin-left: 10px;
+  color: #333333;
+}
+
+/* tablet device style */
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .login-page-container {
+    padding: 12px;
+    align-items: flex-start;
+    justify-content: space-around;
+  }
+  .login-form-container {
+    width: 420px;
+  }
+  .offer-container {
+    width: 480px;
+  }
+  .deal-price {
+    font-size: 14px;
+  }
+  .offer-price {
+    font-size: 18px;
+  }
+  .offer-percentage {
+    font-size: 16px;
+  }
+  .picture-outer-container {
+    width: 180px;
+    height: 180px;
+  }
+  .picture-container {
+    width: 70%;
+    height: 70%;
+    margin-left: 20px;
+    margin-top: -20px;
+  }
+  .ad-head {
+    font-size: 24px;
+  }
+  .highlight-img {
+    width: 180px;
+  }
+  .works-container {
+    width: 160px;
+  }
+  .work-1 {
+    left: 40px;
+    top: 140px;
+  }
+  .work-2 {
+    left: 0;
+    top: 240px;
+  }
+  .work-3 {
+    top: 340px;
+  }
+}
+.main-form-container-mobile {
+  display: none;
+}
+
+/* login mobile device style */
+
+@media screen and (max-width: 767px) {
+  .ad-display-container {
+    display: none;
+  }
+  .works-container {
+    display: none;
+  }
+  .login-page-container {
+    flex-direction: column;
+  }
+  .main-form-container {
+    display: none;
+  }
+  .main-form-container-mobile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .ad-head-mobile {
+    font-size: 24px;
+    font-family: "Roboto";
+    font-weight: 600;
+    line-height: 70px;
+    color: #333333;
+  }
+  .highlight-img {
+    width: 50%;
+  }
+  .offer-container {
+    width: 280px;
+  }
+  .deal-price {
+    font-size: 10px;
+    width: 200px;
+  }
+  .offer-price {
+    font-size: 12px;
+  }
+  .offer-percentage {
+    font-size: 14px;
+  }
+  .login-form-container {
+    width: 300px;
+    margin-top: 20px;
+  }
+  .form-info {
+    font-size: 12px;
+  }
+  .submit-btn {
+    width: 160px;
+  }
+  .ad-head-container {
+    display: none;
+  }
+  .login-page-container {
+    background-image: linear-gradient(to bottom, #7ee3f7, #ffffff 50%);
+  }
+}

@@ -1,0 +1,173 @@
+.why-choose-us-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  height: 950px;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(255, 255, 255),
+    rgb(135, 206, 235)
+  );
+}
+.why-head-container {
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+}
+.why-head {
+  font-family: "Roboto";
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 70px;
+  color: #333333;
+}
+.why-highlight {
+  color: #138ed1;
+  margin-right: 5px;
+}
+.highlight-pattern-why {
+  align-self: center;
+  width: 180px;
+}
+.why-choose-info {
+  font-family: "Roboto";
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 40px;
+  text-align: center;
+  color: #6e6e6e;
+  margin-top: 40px;
+  width: 720px;
+  align-self: center;
+}
+
+.why-choose-info-flow-container {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+.why-choose-cards-container {
+  margin-top: 40px;
+  width: 850px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 4px;
+}
+
+.why-choose-card {
+  padding: 20px;
+  width: 374px;
+  height: 226px;
+  border-radius: 33px;
+  background-color: #ffffff;
+  box-shadow: 0px 4px 15px 0px #00000040;
+  position: relative;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+.why-choose-card-head {
+  font-family: "Roboto";
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 35px;
+  color: #2f2f2f;
+  width: 250px;
+}
+
+.why-choose-card-info {
+  font-family: "Roboto";
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  width: 250px;
+  margin-top: 20px;
+}
+
+.image-pop-up {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-radius: 50%;
+  padding: 10px;
+  transform: translate(50%, -50%);
+  background-color: #ffffff;
+}
+
+.value-card {
+  top: 50px;
+}
+.timely-card {
+  top: 100px;
+}
+.transparancy-card {
+  top: 150px;
+}
+
+.professional-img {
+  padding: 20px;
+  width: 450px;
+  height: 500px;
+  object-fit: cover;
+}
+.professional-img-tab {
+  display: none;
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .why-choose-us-container {
+    padding: 25px;
+  }
+  .why-choose-card {
+    width: 160px;
+    height: 100%;
+    padding: 12px;
+  }
+  .why-choose-card-head {
+    width: 100%;
+    font-size: 20px;
+  }
+  .why-choose-card-info {
+    width: 100%;
+    font-size: 14px;
+  }
+  .why-choose-logo {
+    height: 40px;
+    width: 40px;
+  }
+  .professional-img {
+    display: none;
+  }
+  .professional-img-tab {
+    display: block;
+    height: 400px;
+    width: 600px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .why-head {
+    font-size: 24px;
+  }
+  .why-highlight {
+    width: 100px;
+  }
+  .why-choose-info {
+    width: 200px;
+  }
+  .professional-img {
+    display: none;
+  }
+  .why-choose-cards-container {
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+  .why-choose-card {
+    width: 280px;
+  }
+  .image-pop-up {
+    display: none;
+  }
+}

@@ -1,0 +1,35 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.free-container {
+  margin-top: 20px;
+  align-self: center;
+  width: 702px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.free-info-container {
+  display: flex;
+  align-items: center;
+}
+
+.free-text {
+  font-family: "Roboto";
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #333333;
+}
+
+@media screen and (max-width: 767px) {
+  .free-container {
+    width: 300px;
+    flex-direction: column;
+  }
+  .free-info-container {
+    margin-top: 20px;
+  }
+}

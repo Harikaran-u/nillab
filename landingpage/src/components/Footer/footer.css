@@ -1,0 +1,176 @@
+/* footer style */
+
+.footer-main-container {
+  padding: 10px;
+  background-color: #1f1f1f;
+}
+
+.footer-info-container {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid #ffffff;
+  padding: 20px;
+}
+.footer-card {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+}
+.footer-nil-logo {
+  height: 80px;
+  width: 80px;
+}
+.footer-info {
+  font-family: "Roboto";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #ffffff;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.contact-container {
+  width: 471px;
+  height: 88px;
+  border-radius: 14px;
+  background-color: #ffffff40;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.tel-code {
+  font-family: "Roboto";
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 35px;
+  color: #ffffff;
+  margin-left: 20px;
+}
+
+.number {
+  font-family: "Roboto";
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 35px;
+  color: #80c6ff;
+  border-left: 2px solid rgb(255, 255, 255);
+  margin-left: 20px;
+  padding-left: 20px;
+}
+
+.call-btn {
+  border: 0;
+  background-color: #00a6ff;
+  width: 118px;
+  height: 88px;
+  padding: 5px;
+  border-top-right-radius: 14px;
+  border-bottom-right-radius: 14px;
+  cursor: pointer;
+}
+.call-btn-icon {
+  color: #ffffff;
+}
+
+.services-container {
+  display: flex;
+  justify-content: space-between;
+}
+.service-card {
+  display: flex;
+  flex-direction: column;
+  margin-left: 40px;
+}
+.service-head {
+  font-family: "Roboto";
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 35px;
+  color: #ffffff;
+}
+.services-list-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+}
+
+.service-name {
+  font-family: "Roboto";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #ffffff;
+  cursor: pointer;
+}
+.copy-rights-container {
+  margin-top: 50px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+}
+.copy-right-icon {
+  color: #ffffff;
+}
+.copy-right-text {
+  font-family: "Roboto";
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  color: #ffffff;
+  margin-left: 20px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .footer-nil-logo {
+    align-self: center;
+  }
+  .footer-info-container {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  .services-container {
+    margin-top: 20px;
+    width: 580px;
+    text-align: left;
+  }
+  .copy-rights-container {
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer-info-container {
+    flex-direction: column;
+  }
+  .footer-card {
+    width: 100%;
+  }
+  .contact-container {
+    width: 100%;
+    height: 50px;
+  }
+  .call-btn {
+    height: 50px;
+    width: 100%;
+  }
+  .services-container {
+    flex-direction: column;
+  }
+  .service-card {
+    margin-top: 20px;
+  }
+  .copy-right-text {
+    font-size: 14px;
+  }
+  .tel-code {
+    display: none;
+  }
+  .number {
+    display: none;
+  }
+}

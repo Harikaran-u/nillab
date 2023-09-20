@@ -1,0 +1,182 @@
+.top-packages-container {
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  position: relative;
+}
+.top-head-container {
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+}
+.top-head {
+  font-family: "Roboto";
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 70px;
+  color: #333333;
+}
+.top-highlight {
+  color: #138ed1;
+}
+.highlight-pattern-top {
+  align-self: flex-end;
+  width: 264px;
+}
+.package-info {
+  align-self: center;
+  font-family: "Roboto";
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 40px;
+  text-align: center;
+  color: #6e6e6e;
+  margin-top: 40px;
+  width: 720px;
+}
+
+.package-cards-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 40px;
+  list-style-type: none;
+}
+
+.package-card {
+  width: 354px;
+  height: 340px;
+  box-shadow: 0px 4px 30px 0px #00000040;
+  background-color: #ffffff;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-right: 25px;
+}
+.package-name {
+  font-family: "Roboto";
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 40px;
+  color: #2f2f2f;
+  width: 300px;
+}
+.ratings-container {
+  display: flex;
+  align-items: center;
+}
+.rating {
+  font-family: "Roboto";
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 20px;
+  color: #2f2f2f;
+}
+.rating-icon {
+  color: #e2e700;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+.reviews {
+  font-family: "Roboto";
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 20px;
+  color: #6e6e6e;
+}
+.test-numbers {
+  font-family: "Roboto";
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 40px;
+  color: #2f2f2f;
+}
+.mrp {
+  font-family: "Roboto";
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 20px;
+  color: #6e6e6e;
+}
+.discount-offer {
+  font-family: "Roboto";
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 20px;
+  color: #2f2f2f;
+}
+
+.book-now-btn {
+  align-self: center;
+  width: 264px;
+  height: 43px;
+  border-radius: 6px;
+  border: 0;
+  font-family: "Roboto";
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: center;
+  cursor: pointer;
+  color: #ffffff;
+  background-color: #008dd9;
+}
+.swipe-container {
+  position: absolute;
+  right: 0;
+  top: 300px;
+  left: 90%;
+}
+.swipe-arrow {
+  width: 142px;
+  height: 142px;
+  background-color: #ffffff;
+  border: 0;
+  border-radius: 50%;
+  box-shadow: 0px 4px 10px 0px #00000040;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .package-card {
+    width: 220px;
+  }
+  .test-numbers {
+    font-size: 14px;
+  }
+  .package-name {
+    width: 100%;
+  }
+  .book-now-btn {
+    width: 80%;
+    align-self: start;
+  }
+  .swipe-arrow {
+    width: 60px;
+    height: 60px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .top-head {
+    font-size: 24px;
+  }
+  .highlight-pattern-top {
+    width: 100px;
+  }
+  .package-info {
+    font-size: 14px;
+    width: 200px;
+  }
+  .package-cards-container {
+    flex-direction: column;
+  }
+  .swipe-container {
+    display: none;
+  }
+  .package-card {
+    margin-top: 10px;
+  }
+}
